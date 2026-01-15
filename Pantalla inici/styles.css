@@ -1,50 +1,71 @@
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e8f5e9;
 }
-
 
 header {
-background-color: #d63384;
-color: white;
-padding: 15px;
+    background-color: #388e3c;
+    color: white;
+    padding: 15px;
 }
-
 
 nav a {
-color: white;
-margin: 0 10px;
-text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
 }
-
 
 .hero {
-text-align: center;
-padding: 60px;
-background-color: #f8c8dc;
+    text-align: center;
+    padding: 60px;
+    background-color: #a5d6a7;
 }
-
 
 .productos {
-padding: 30px;
-text-align: center;
+    padding: 30px;
+    text-align: center;
 }
-
 
 .card {
-display: inline-block;
-background: white;
-padding: 20px;
-margin: 10px;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
 
 footer {
-background-color: #d63384;
-color: white;
-text-align: center;
-padding: 10px;
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }

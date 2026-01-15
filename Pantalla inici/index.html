@@ -1,50 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
-<meta charset="UTF-8">
-<title>EcoFlora</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>EcoFlora</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header>
-<h1>EcoFlora</h1>
-<nav>
-<a href="#inicio">Inicio</a>
-<a href="#productos">Productos</a>
-<a href="#nosotros">Nosotros</a>
-<a href="#contacto">Contacto</a>
-</nav>
+    <h1>EcoFlora</h1>
+    <nav>
+        <a href="#inicio">Inici</a>
+        <a href="#productos">Productes</a>
+        <a href="#nosotros">Sobre Nosaltres</a>
+        <a href="#contacto">Contacte</a>
+    </nav>
 </header>
 
-
 <section id="inicio" class="hero">
-<h2>Realza tu belleza natural</h2>
-<p>Cosméticos naturales y de alta calidad</p>
+    <h2>Realça la teva bellesa natural</h2>
+    <p>Cosmètics ecològics i de gran qualitat</p>
 </section>
-
 
 <section id="productos" class="productos">
-<h2>Nuestros Productos</h2>
-<div class="card">Crema Facial</div>
-<div class="card">Labial Natural</div>
-<div class="card">Perfume Floral</div>
+    <h2>Els Nostres Productes</h2>
+    <div class="card">Crema Facial</div>
+    <div class="card">Làpis de Llavis Natural</div>
+    <div class="card">Perfums Florals</div>
 </section>
-
 
 <section id="nosotros">
-<h2>Sobre Nosotros</h2>
-<p>Somos una empresa dedicada a crear cosméticos responsables con el medio ambiente.</p>
+    <h2>Sobre Nosaltres</h2>
+    <p>EcoFlora està compromesa amb la bellesa sostenible i productes responsables amb el medi ambient.</p>
 </section>
-
 
 <section id="contacto">
-<h2>Contacto</h2>
-<p>Email: contacto@ecoflora.com</p>
+    <h2>Contacte</h2>
+    <form id="contactForm">
+        <input type="text" id="nombre" placeholder="El teu nom" required>
+        <input type="email" id="email" placeholder="El teu email" required>
+        <textarea id="mensaje" placeholder="El teu missatge" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="respuesta"></p>
 </section>
 
-
 <footer>
-<p>© 2026 EcoFlora</p>
+    <p>© 2026 EcoFlora</p>
 </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
